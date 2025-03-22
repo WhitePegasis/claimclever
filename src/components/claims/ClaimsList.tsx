@@ -51,7 +51,7 @@ const ClaimsList = ({ claims }: ClaimsListProps) => {
                 <SelectValue placeholder="Status" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Status</SelectItem>
+                <SelectItem value="all-status">All Status</SelectItem>
                 <SelectItem value="New">New</SelectItem>
                 <SelectItem value="In Review">In Review</SelectItem>
                 <SelectItem value="Pending">Pending</SelectItem>
@@ -67,7 +67,7 @@ const ClaimsList = ({ claims }: ClaimsListProps) => {
                 <SelectValue placeholder="Type" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Types</SelectItem>
+                <SelectItem value="all-types">All Types</SelectItem>
                 <SelectItem value="Auto">Auto</SelectItem>
                 <SelectItem value="Property">Property</SelectItem>
                 <SelectItem value="Health">Health</SelectItem>
@@ -82,7 +82,7 @@ const ClaimsList = ({ claims }: ClaimsListProps) => {
                 <SelectValue placeholder="Risk Level" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Risks</SelectItem>
+                <SelectItem value="all-risks">All Risks</SelectItem>
                 <SelectItem value="Low">Low Risk</SelectItem>
                 <SelectItem value="Medium">Medium Risk</SelectItem>
                 <SelectItem value="High">High Risk</SelectItem>
