@@ -12,7 +12,7 @@ import EntityTag from '@/components/ui/EntityTag';
 import { formatDistanceToNow, format } from 'date-fns';
 import { Separator } from '@/components/ui/separator';
 import { AlertTriangle, CheckCircle, Clock, FileText, XCircle } from 'lucide-react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 interface ClaimDetailsProps {
   claim: Claim;

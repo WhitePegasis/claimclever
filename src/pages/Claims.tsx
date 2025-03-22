@@ -5,7 +5,7 @@ import { Plus } from 'lucide-react';
 import { claims } from '@/lib/data';
 import ClaimsList from '@/components/claims/ClaimsList';
 import Navbar from '@/components/layout/Navbar';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const Claims = () => {
   const handleNewClaim = () => {
