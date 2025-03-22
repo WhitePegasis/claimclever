@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Claims from "./pages/Claims";
 import ClaimView from "./pages/ClaimView";
+import Fraud from "./pages/Fraud";
+import Analytics from "./pages/Analytics";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +23,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/claims" element={<Claims />} />
           <Route path="/claims/:id" element={<ClaimView />} />
+          <Route path="/fraud" element={<Fraud />} />
+          <Route path="/analytics" element={<Analytics />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
