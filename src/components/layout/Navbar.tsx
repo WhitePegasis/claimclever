@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
-import { FileText, Home, AlertTriangle, BarChart3 } from 'lucide-react';
+import { FileText, Home, AlertTriangle, BarChart3, Settings } from 'lucide-react';
 
 interface NavItem {
   title: string;
@@ -30,6 +30,11 @@ const navItems: NavItem[] = [
     title: 'Analytics',
     href: '/analytics',
     icon: <BarChart3 className="h-5 w-5" />
+  },
+  {
+    title: 'Settings',
+    href: '/settings',
+    icon: <Settings className="h-5 w-5" />
   }
 ];
 

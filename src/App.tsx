@@ -9,6 +9,7 @@ import Claims from "./pages/Claims";
 import ClaimView from "./pages/ClaimView";
 import Fraud from "./pages/Fraud";
 import Analytics from "./pages/Analytics";
+import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/claims/:id" element={<ClaimView />} />
           <Route path="/fraud" element={<Fraud />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
